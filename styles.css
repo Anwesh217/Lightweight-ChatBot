@@ -1,0 +1,78 @@
+/* Global background and font */
+body {
+    background-color: #f5f7fa;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Input field styling */
+.stTextInput > div > div > input {
+    background-color: #f0f2f6;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #d3d3d3;
+}
+
+/* Chat message bubbles */
+.stChatMessage {
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.stChatMessage.user {
+    background-color: #d9eaf7;
+    border-left: 5px solid #2196F3;
+}
+
+.stChatMessage.assistant {
+    background-color: #e8f5e9;
+    border-left: 5px solid #4CAF50;
+}
+
+/* System info box */
+.system-info {
+    padding: 0.75rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    background-color: #f8f9fa;
+    border-left: 5px solid #4CAF50;
+    font-size: 0.95rem;
+}
+
+/* Sidebar styling */
+.sidebar .stButton>button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+
+.sidebar .stButton>button:hover {
+    background-color: #45a049;
+}
+
+/* File uploader tweaks */
+.css-1p05t8e {  /* Adjust this class name if it changes */
+    background-color: #ffffff !important;
+    border: 1px solid #ddd !important;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+/* Spinner overlay */
+.stSpinner {
+    color: #4CAF50 !important;
+}
+
+/* Title and text tweaks */
+h1, h2, h3 {
+    color: #333333;
+}
+
+.stMarkdown {
+    font-size: 1rem;
+    line-height: 1.6;
+}
