@@ -95,6 +95,8 @@ with st.sidebar:
         ```
         """)
 
+
+
     # PDF upload
     st.subheader("PDF Upload")
     uploaded_file = st.file_uploader("Upload PDF", type=["pdf"])
