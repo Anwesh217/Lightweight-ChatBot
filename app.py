@@ -12,7 +12,7 @@ st.set_page_config(
     layout="wide",
 )
 
-# Custom CSS for better UI
+# CSS
 st.markdown("""
 <style>
 .stTextInput>div>div>input {
