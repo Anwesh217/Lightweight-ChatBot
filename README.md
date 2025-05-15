@@ -44,12 +44,6 @@ A lightweight, privacy-focused chatbot application that leverages Ollama's local
 
 6. Open your browser and visit `http://localhost:8501`
 
-## 📋 Requirements.txt
-
-```
-pip install -r requirements.txt
-
-```
 
 ## 🔄 How It Works
 
